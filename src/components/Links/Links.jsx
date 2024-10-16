@@ -13,6 +13,7 @@ const Links = ({route}) => {
 };
 
 Links.propTypes = {
+    // route: PropTypes.object            Phero used it
     route: PropTypes.shape({
       path: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,

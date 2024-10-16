@@ -1,7 +1,10 @@
+import { useState } from "react";
 import Links from "../Links/Links";
-
+import { RiMenu2Line} from "react-icons/ri";
+import { VscEyeClosed } from "react-icons/vsc";
 
 const Navbar = () => {
+    const [open, setOpen] = useState(false)
   const routes = [
         { id: 1, path: "/", name: "Home" },
         { id: 2, path: "/about", name: "About" },
@@ -12,7 +15,14 @@ const Navbar = () => {
       ];
     return (
         <nav>
+             <div onClick={() => {setOpen(!open)}} className="md:hidden text-2xl">
+                {
+                    open === true ? <VscEyeClosed />: <RiMenu2Line></RiMenu2Line>
+                }
+                
+             </div>
             <ul className="md:flex ">
+           
             {
                 // routes.map(route => console.log(route))
                 routes.map(route => <Links key={route.id} route={route}></Links>)
