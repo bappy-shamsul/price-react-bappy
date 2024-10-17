@@ -1,4 +1,4 @@
-import { LineChart as LChart, Line, CartesianGrid, XAxis, YAxis } from 'recharts';
+import { LineChart as LChart, Line, CartesianGrid, XAxis, YAxis, Tooltip } from 'recharts';
 
 const LineChart = () => {
     // const sales_data = [
@@ -47,6 +47,7 @@ const LineChart = () => {
             <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
             <XAxis dataKey="year" />
             <YAxis dataKey="sale" />
+            <Tooltip></Tooltip>
             </LChart>
         </div>
     );
