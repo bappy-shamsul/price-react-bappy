@@ -4,7 +4,7 @@ const Links = ({route}) => {
     return (
         <div>
             
-                <li className="mr-4 p-3 hover:bg-orange-700 rounded-e-3xl">
+                <li className="mr-4 p-3 hover:bg-orange-700 rounded-e-3xl ">
                 <a href={route.path}>{route.name}</a>
             </li>
             
