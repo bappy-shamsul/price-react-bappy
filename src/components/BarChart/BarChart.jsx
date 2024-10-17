@@ -8,14 +8,14 @@ const BarChart = () => {
         { "id": 4, "year": 2017, "samsung_sale": 700, "apple_sale": 450, "xiaomi_sale": 350 },
         { "id": 5, "year": 2018, "samsung_sale": 750, "apple_sale": 500, "xiaomi_sale": 400 },
         { "id": 6, "year": 2019, "samsung_sale": 820, "apple_sale": 550, "xiaomi_sale": 500 },
-        { "id": 7, "year": 2020, "samsung_sale": 780, "apple_sale": 600, "xiaomi_sale": 550 },
+        { "id": 7, "year": 2020, "samsung_sale": 780, "apple_sale": 1600, "xiaomi_sale": 550 },
         { "id": 8, "year": 2021, "samsung_sale": 900, "apple_sale": 700, "xiaomi_sale": 650 },
         { "id": 9, "year": 2022, "samsung_sale": 950, "apple_sale": 750, "xiaomi_sale": 700 },
         { "id": 10, "year": 2023, "samsung_sale": 1000, "apple_sale": 800, "xiaomi_sale": 250 }
     ]
 
     return (
-        <div className='m-40'>
+        <div className='m-2'>
             <BChart width={600} height={300} data={sales_data}>
                 <XAxis dataKey="name"  />
                 <YAxis />

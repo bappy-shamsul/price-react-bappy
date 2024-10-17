@@ -12,10 +12,12 @@ function App() {
       {/* <Daisynav></Daisynav> */}
       <Navbar></Navbar>
       {/* <h1 className='text-7xl bg-red-400'>Vite + React</h1> */}
-     
-    <Priceoptions></Priceoptions>
-    <LineChart></LineChart>
-    <BarChart></BarChart>
+
+      <Priceoptions></Priceoptions>
+      <div className='grid grid-cols-2 mr-8 bg-slate-700'>
+        <LineChart></LineChart>
+        <BarChart></BarChart>
+      </div>
     </>
   )
 }

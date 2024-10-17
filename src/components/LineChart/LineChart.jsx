@@ -39,8 +39,8 @@ const LineChart = () => {
         //     <YAxis dataKey="sale" />
         //     </LChart>
         // </div>
-        <div className='m-36'>
-            <LChart width={600} height={400} data={sales_data}>
+        <div className='m-2'>
+            <LChart width={600} height={300} data={sales_data}>
             <Line type="monotone" dataKey="samsung_sale" stroke="blue" />
             <Line type="monotone" dataKey="apple_sale" stroke="red" />
             <Line type="monotone" dataKey="xiaomi_sale" stroke="green" />
