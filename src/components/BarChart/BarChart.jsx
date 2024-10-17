@@ -21,7 +21,7 @@ const BarChart = () => {
                 <YAxis />
                 <Bar dataKey="samsung_sale" barSize={30} fill="#8884d8"/>
                 <Bar dataKey="apple_sale" barSize={30} fill="green"/>
-                <Bar dataKey="xiaomi_sale" barSize={30} fill="gred"/>
+                <Bar dataKey="xiaomi_sale" barSize={30} fill="red"/>
             </BChart>
         </div>
     );
