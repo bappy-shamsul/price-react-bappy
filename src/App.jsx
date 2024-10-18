@@ -3,6 +3,7 @@ import BarChart from './components/BarChart/BarChart'
 import LineChart from './components/LineChart/LineChart'
 // import Daisynav from './components/Daisynav/Daisynav'
 import Navbar from './components/Navbar/Navbar'
+import Phones from './components/Phones/Phones'
 import Priceoptions from './components/Priceoptions/Priceoptions'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <LineChart></LineChart>
         <BarChart></BarChart>
       </div>
+      <Phones></Phones>
     </>
   )
 }
